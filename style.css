@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(20, 19, 19);
+}
+.main{
+    border-radius:15px ;
+    height: 80vh;
+    background-color: white;
+}
+.header{
+    border-radius:10px 10px  0px 0px ;
+    padding-top: 15px;
+    height: 200px;
+    background-color:#6943FF;
+    color: white;
+    text-align: center;
+}
+.header input{
+    font-size: 30px;
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: inherit;
+    width: 60px;
+    height: 40px;
+    border: 1px white solid;
+    color: white;
+    border-radius: 2px;
+}
+.header button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+  
+}
+.botom{
+    padding: 10px;
+    background-color: rgb(236, 233, 233);
+    height: 47vh;
+    border-radius: 0px 0px 10px 10px;
+}
+.botom .converdiv{
+  height: 70px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.botom .converdiv h4{
+    margin-bottom: 5px;
+}
